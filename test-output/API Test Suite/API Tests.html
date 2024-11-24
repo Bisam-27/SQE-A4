@@ -1,0 +1,184 @@
+<html>
+<head>
+<title>TestNG:  API Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>API Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Nov 24 05:33:26 PST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>21 seconds (21955 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.apiTesting.GetTests.testGetDelayedResponse()'><b>testGetDelayedResponse</b><br>Test class: com.apiTesting.GetTests</td>
+<td></td>
+<td>6</td>
+<td>com.apiTesting.GetTests@4eb386df</td></tr>
+<tr>
+<td title='com.apiTesting.test.UserTests.testLoginUserInvalid()'><b>testLoginUserInvalid</b><br>Test class: com.apiTesting.test.UserTests</td>
+<td></td>
+<td>0</td>
+<td>com.apiTesting.test.UserTests@77825085</td></tr>
+<tr>
+<td title='com.apiTesting.test.ResourceTests.testGetSingleResource()'><b>testGetSingleResource</b><br>Test class: com.apiTesting.test.ResourceTests</td>
+<td></td>
+<td>0</td>
+<td>com.apiTesting.test.ResourceTests@5143c662</td></tr>
+<tr>
+<td title='com.apiTesting.test.UserTests.testCreateUser()'><b>testCreateUser</b><br>Test class: com.apiTesting.test.UserTests<br>Parameters: com.apiTesting.model.User@289a5bb</td>
+<td></td>
+<td>0</td>
+<td>com.apiTesting.test.UserTests@77825085</td></tr>
+<tr>
+<td title='com.apiTesting.test.ResourceTests.testDeleteResource()'><b>testDeleteResource</b><br>Test class: com.apiTesting.test.ResourceTests</td>
+<td></td>
+<td>0</td>
+<td>com.apiTesting.test.ResourceTests@5143c662</td></tr>
+<tr>
+<td title='com.apiTesting.test.UserTests.testUpdateUser()'><b>testUpdateUser</b><br>Test class: com.apiTesting.test.UserTests</td>
+<td></td>
+<td>0</td>
+<td>com.apiTesting.test.UserTests@77825085</td></tr>
+<tr>
+<td title='com.apiTesting.test.UserTests.testGetUsers()'><b>testGetUsers</b><br>Test class: com.apiTesting.test.UserTests</td>
+<td></td>
+<td>0</td>
+<td>com.apiTesting.test.UserTests@77825085</td></tr>
+<tr>
+<td title='com.apiTesting.test.UserTests.testCreateUser()'><b>testCreateUser</b><br>Test class: com.apiTesting.test.UserTests<br>Parameters: com.apiTesting.model.User@55aec34b</td>
+<td></td>
+<td>0</td>
+<td>com.apiTesting.test.UserTests@77825085</td></tr>
+<tr>
+<td title='com.apiTesting.test.ResourceTests.testCreateResource()'><b>testCreateResource</b><br>Test class: com.apiTesting.test.ResourceTests<br>Parameters: com.apiTesting.model.Resource@62d9b5b4</td>
+<td></td>
+<td>0</td>
+<td>com.apiTesting.test.ResourceTests@5143c662</td></tr>
+<tr>
+<td title='com.apiTesting.test.ResourceTests.testCreateResource()'><b>testCreateResource</b><br>Test class: com.apiTesting.test.ResourceTests<br>Parameters: com.apiTesting.model.Resource@1aa9339</td>
+<td></td>
+<td>0</td>
+<td>com.apiTesting.test.ResourceTests@5143c662</td></tr>
+<tr>
+<td title='com.apiTesting.test.UserTests.testDeleteUser()'><b>testDeleteUser</b><br>Test class: com.apiTesting.test.UserTests</td>
+<td></td>
+<td>0</td>
+<td>com.apiTesting.test.UserTests@77825085</td></tr>
+<tr>
+<td title='com.apiTesting.GetTests.testGetListOfResources()'><b>testGetListOfResources</b><br>Test class: com.apiTesting.GetTests</td>
+<td></td>
+<td>1</td>
+<td>com.apiTesting.GetTests@4eb386df</td></tr>
+<tr>
+<td title='com.apiTesting.GetTests.testGetSingleUser()'><b>testGetSingleUser</b><br>Test class: com.apiTesting.GetTests</td>
+<td></td>
+<td>0</td>
+<td>com.apiTesting.GetTests@4eb386df</td></tr>
+<tr>
+<td title='com.apiTesting.GetTests.testGetSingleUserInvalid()'><b>testGetSingleUserInvalid</b><br>Test class: com.apiTesting.GetTests</td>
+<td></td>
+<td>0</td>
+<td>com.apiTesting.GetTests@4eb386df</td></tr>
+<tr>
+<td title='com.apiTesting.test.UserTests.testCreateUser()'><b>testCreateUser</b><br>Test class: com.apiTesting.test.UserTests<br>Parameters: com.apiTesting.model.User@6cd7bff1</td>
+<td></td>
+<td>0</td>
+<td>com.apiTesting.test.UserTests@77825085</td></tr>
+<tr>
+<td title='com.apiTesting.test.UserTests.testLoginUserValid()'><b>testLoginUserValid</b><br>Test class: com.apiTesting.test.UserTests</td>
+<td></td>
+<td>0</td>
+<td>com.apiTesting.test.UserTests@77825085</td></tr>
+<tr>
+<td title='com.apiTesting.test.ResourceTests.testCreateResource()'><b>testCreateResource</b><br>Test class: com.apiTesting.test.ResourceTests<br>Parameters: com.apiTesting.model.Resource@12b3a7a1</td>
+<td></td>
+<td>1</td>
+<td>com.apiTesting.test.ResourceTests@5143c662</td></tr>
+<tr>
+<td title='com.apiTesting.test.ResourceTests.testUpdateResource()'><b>testUpdateResource</b><br>Test class: com.apiTesting.test.ResourceTests</td>
+<td></td>
+<td>0</td>
+<td>com.apiTesting.test.ResourceTests@5143c662</td></tr>
+<tr>
+<td title='com.apiTesting.test.ResourceTests.testGetResources()'><b>testGetResources</b><br>Test class: com.apiTesting.test.ResourceTests</td>
+<td></td>
+<td>0</td>
+<td>com.apiTesting.test.ResourceTests@5143c662</td></tr>
+<tr>
+<td title='com.apiTesting.GetTests.testGetSingleResource()'><b>testGetSingleResource</b><br>Test class: com.apiTesting.GetTests</td>
+<td></td>
+<td>0</td>
+<td>com.apiTesting.GetTests@4eb386df</td></tr>
+<tr>
+<td title='com.apiTesting.GetTests.testGetListOfUsers()'><b>testGetListOfUsers</b><br>Test class: com.apiTesting.GetTests</td>
+<td></td>
+<td>0</td>
+<td>com.apiTesting.GetTests@4eb386df</td></tr>
+</table><p>
+</body>
+</html>

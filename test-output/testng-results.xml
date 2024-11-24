@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-24T05:33:26 PST" name="API Test Suite" finished-at="2024-11-24T05:33:48 PST" duration-ms="21955">
+    <groups>
+    </groups>
+    <test started-at="2024-11-24T05:33:26 PST" name="API Tests" finished-at="2024-11-24T05:33:48 PST" duration-ms="21955">
+      <class name="com.apiTesting.test.UserTests">
+        <test-method signature="testCreateUser(com.apiTesting.model.User)[pri:0, instance:com.apiTesting.test.UserTests@77825085]" started-at="2024-11-24T05:33:42 PST" name="testCreateUser" data-provider="userCreationData" finished-at="2024-11-24T05:33:43 PST" duration-ms="808" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.apiTesting.model.User@6cd7bff1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method signature="testCreateUser(com.apiTesting.model.User)[pri:0, instance:com.apiTesting.test.UserTests@77825085]" started-at="2024-11-24T05:33:43 PST" name="testCreateUser" data-provider="userCreationData" finished-at="2024-11-24T05:33:44 PST" duration-ms="822" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.apiTesting.model.User@289a5bb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method signature="testCreateUser(com.apiTesting.model.User)[pri:0, instance:com.apiTesting.test.UserTests@77825085]" started-at="2024-11-24T05:33:44 PST" name="testCreateUser" data-provider="userCreationData" finished-at="2024-11-24T05:33:44 PST" duration-ms="769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.apiTesting.model.User@55aec34b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method signature="testDeleteUser()[pri:0, instance:com.apiTesting.test.UserTests@77825085]" started-at="2024-11-24T05:33:44 PST" name="testDeleteUser" finished-at="2024-11-24T05:33:45 PST" duration-ms="754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+        <test-method signature="testGetUsers()[pri:0, instance:com.apiTesting.test.UserTests@77825085]" started-at="2024-11-24T05:33:45 PST" name="testGetUsers" finished-at="2024-11-24T05:33:46 PST" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsers -->
+        <test-method signature="testLoginUserInvalid()[pri:0, instance:com.apiTesting.test.UserTests@77825085]" started-at="2024-11-24T05:33:46 PST" name="testLoginUserInvalid" finished-at="2024-11-24T05:33:46 PST" duration-ms="861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUserInvalid -->
+        <test-method signature="testLoginUserValid()[pri:0, instance:com.apiTesting.test.UserTests@77825085]" started-at="2024-11-24T05:33:46 PST" name="testLoginUserValid" finished-at="2024-11-24T05:33:47 PST" duration-ms="812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUserValid -->
+        <test-method signature="testUpdateUser()[pri:0, instance:com.apiTesting.test.UserTests@77825085]" started-at="2024-11-24T05:33:47 PST" name="testUpdateUser" finished-at="2024-11-24T05:33:48 PST" duration-ms="873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+      </class> <!-- com.apiTesting.test.UserTests -->
+      <class name="com.apiTesting.test.ResourceTests">
+        <test-method signature="testCreateResource(com.apiTesting.model.Resource)[pri:0, instance:com.apiTesting.test.ResourceTests@5143c662]" started-at="2024-11-24T05:33:36 PST" name="testCreateResource" data-provider="resourceCreationData" finished-at="2024-11-24T05:33:38 PST" duration-ms="1062" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.apiTesting.model.Resource@12b3a7a1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateResource -->
+        <test-method signature="testCreateResource(com.apiTesting.model.Resource)[pri:0, instance:com.apiTesting.test.ResourceTests@5143c662]" started-at="2024-11-24T05:33:38 PST" name="testCreateResource" data-provider="resourceCreationData" finished-at="2024-11-24T05:33:38 PST" duration-ms="738" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.apiTesting.model.Resource@62d9b5b4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateResource -->
+        <test-method signature="testCreateResource(com.apiTesting.model.Resource)[pri:0, instance:com.apiTesting.test.ResourceTests@5143c662]" started-at="2024-11-24T05:33:38 PST" name="testCreateResource" data-provider="resourceCreationData" finished-at="2024-11-24T05:33:39 PST" duration-ms="896" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.apiTesting.model.Resource@1aa9339]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateResource -->
+        <test-method signature="testDeleteResource()[pri:0, instance:com.apiTesting.test.ResourceTests@5143c662]" started-at="2024-11-24T05:33:39 PST" name="testDeleteResource" finished-at="2024-11-24T05:33:40 PST" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteResource -->
+        <test-method signature="testGetResources()[pri:0, instance:com.apiTesting.test.ResourceTests@5143c662]" started-at="2024-11-24T05:33:40 PST" name="testGetResources" finished-at="2024-11-24T05:33:41 PST" duration-ms="758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetResources -->
+        <test-method signature="testGetSingleResource()[pri:0, instance:com.apiTesting.test.ResourceTests@5143c662]" started-at="2024-11-24T05:33:41 PST" name="testGetSingleResource" finished-at="2024-11-24T05:33:41 PST" duration-ms="436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetSingleResource -->
+        <test-method signature="testUpdateResource()[pri:0, instance:com.apiTesting.test.ResourceTests@5143c662]" started-at="2024-11-24T05:33:41 PST" name="testUpdateResource" finished-at="2024-11-24T05:33:42 PST" duration-ms="865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateResource -->
+      </class> <!-- com.apiTesting.test.ResourceTests -->
+      <class name="com.apiTesting.GetTests">
+        <test-method signature="testGetDelayedResponse()[pri:0, instance:com.apiTesting.GetTests@4eb386df]" started-at="2024-11-24T05:33:26 PST" name="testGetDelayedResponse" finished-at="2024-11-24T05:33:32 PST" duration-ms="6188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDelayedResponse -->
+        <test-method signature="testGetListOfResources()[pri:0, instance:com.apiTesting.GetTests@4eb386df]" started-at="2024-11-24T05:33:32 PST" name="testGetListOfResources" finished-at="2024-11-24T05:33:33 PST" duration-ms="1091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetListOfResources -->
+        <test-method signature="testGetListOfUsers()[pri:0, instance:com.apiTesting.GetTests@4eb386df]" started-at="2024-11-24T05:33:33 PST" name="testGetListOfUsers" finished-at="2024-11-24T05:33:34 PST" duration-ms="944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetListOfUsers -->
+        <test-method signature="testGetSingleResource()[pri:0, instance:com.apiTesting.GetTests@4eb386df]" started-at="2024-11-24T05:33:34 PST" name="testGetSingleResource" finished-at="2024-11-24T05:33:35 PST" duration-ms="832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetSingleResource -->
+        <test-method signature="testGetSingleUser()[pri:0, instance:com.apiTesting.GetTests@4eb386df]" started-at="2024-11-24T05:33:35 PST" name="testGetSingleUser" finished-at="2024-11-24T05:33:36 PST" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetSingleUser -->
+        <test-method signature="testGetSingleUserInvalid()[pri:0, instance:com.apiTesting.GetTests@4eb386df]" started-at="2024-11-24T05:33:36 PST" name="testGetSingleUserInvalid" finished-at="2024-11-24T05:33:36 PST" duration-ms="787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetSingleUserInvalid -->
+      </class> <!-- com.apiTesting.GetTests -->
+    </test> <!-- API Tests -->
+  </suite> <!-- API Test Suite -->
+</testng-results>

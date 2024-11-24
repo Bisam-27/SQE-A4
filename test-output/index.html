@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-API_Test_Suite" class="navigator-link">
+              <span class="suite-name border-passed">API Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-API_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\Shahnawaz\Downloads\SQE-A4\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-API_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-API_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-API_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-API_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-API_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-API_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods,   21 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-API_Test_Suite" class="hide-methods passed suite-API_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-API_Test_Suite -->
+                      <a href="#" panel-name="suite-API_Test_Suite" class="show-methods passed suite-API_Test_Suite"> (show)</a> <!-- show-methods passed suite-API_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-API_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test_Suite" title="com.apiTesting.test.ResourceTests" class="method navigator-link" hash-for-method="testCreateResource(com.apiTesting.model.Resource@62d9b5b4)">testCreateResource(com.apiTesting.model.Resource@62d9b5b4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test_Suite" title="com.apiTesting.test.ResourceTests" class="method navigator-link" hash-for-method="testCreateResource(com.apiTesting.model.Resource@1aa9339)">testCreateResource(com.apiTesting.model.Resource@1aa9339)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test_Suite" title="com.apiTesting.test.ResourceTests" class="method navigator-link" hash-for-method="testCreateResource(com.apiTesting.model.Resource@12b3a7a1)">testCreateResource(com.apiTesting.model.Resource@12b3a7a1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test_Suite" title="com.apiTesting.test.UserTests" class="method navigator-link" hash-for-method="testCreateUser(com.apiTesting.model.User@289a5bb)">testCreateUser(com.apiTesting.model.User@289a5bb)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test_Suite" title="com.apiTesting.test.UserTests" class="method navigator-link" hash-for-method="testCreateUser(com.apiTesting.model.User@55aec34b)">testCreateUser(com.apiTesting.model.User@55aec34b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test_Suite" title="com.apiTesting.test.UserTests" class="method navigator-link" hash-for-method="testCreateUser(com.apiTesting.model.User@6cd7bff1)">testCreateUser(com.apiTesting.model.User@6cd7bff1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test_Suite" title="com.apiTesting.test.ResourceTests" class="method navigator-link" hash-for-method="testDeleteResource">testDeleteResource</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test_Suite" title="com.apiTesting.test.UserTests" class="method navigator-link" hash-for-method="testDeleteUser">testDeleteUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test_Suite" title="com.apiTesting.GetTests" class="method navigator-link" hash-for-method="testGetDelayedResponse">testGetDelayedResponse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test_Suite" title="com.apiTesting.GetTests" class="method navigator-link" hash-for-method="testGetListOfResources">testGetListOfResources</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test_Suite" title="com.apiTesting.GetTests" class="method navigator-link" hash-for-method="testGetListOfUsers">testGetListOfUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test_Suite" title="com.apiTesting.test.ResourceTests" class="method navigator-link" hash-for-method="testGetResources">testGetResources</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test_Suite" title="com.apiTesting.test.ResourceTests" class="method navigator-link" hash-for-method="testGetSingleResource">testGetSingleResource</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test_Suite" title="com.apiTesting.GetTests" class="method navigator-link" hash-for-method="testGetSingleResource">testGetSingleResource</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test_Suite" title="com.apiTesting.GetTests" class="method navigator-link" hash-for-method="testGetSingleUser">testGetSingleUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test_Suite" title="com.apiTesting.GetTests" class="method navigator-link" hash-for-method="testGetSingleUserInvalid">testGetSingleUserInvalid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test_Suite" title="com.apiTesting.test.UserTests" class="method navigator-link" hash-for-method="testGetUsers">testGetUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test_Suite" title="com.apiTesting.test.UserTests" class="method navigator-link" hash-for-method="testLoginUserInvalid">testLoginUserInvalid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test_Suite" title="com.apiTesting.test.UserTests" class="method navigator-link" hash-for-method="testLoginUserValid">testLoginUserValid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test_Suite" title="com.apiTesting.test.ResourceTests" class="method navigator-link" hash-for-method="testUpdateResource">testUpdateResource</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test_Suite" title="com.apiTesting.test.UserTests" class="method navigator-link" hash-for-method="testUpdateUser">testUpdateUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-API_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-API_Test_Suite" class="panel API_Test_Suite">
+          <div class="suite-API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.apiTesting.test.UserTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateUser(com.apiTesting.model.User@289a5bb)">
+                  </a> <!-- testCreateUser(com.apiTesting.model.User@289a5bb) -->
+                  <span class="method-name">testCreateUser</span>
+                  <span class="parameters">(com.apiTesting.model.User@289a5bb)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateUser(com.apiTesting.model.User@55aec34b)">
+                  </a> <!-- testCreateUser(com.apiTesting.model.User@55aec34b) -->
+                  <span class="method-name">testCreateUser</span>
+                  <span class="parameters">(com.apiTesting.model.User@55aec34b)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateUser(com.apiTesting.model.User@6cd7bff1)">
+                  </a> <!-- testCreateUser(com.apiTesting.model.User@6cd7bff1) -->
+                  <span class="method-name">testCreateUser</span>
+                  <span class="parameters">(com.apiTesting.model.User@6cd7bff1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteUser">
+                  </a> <!-- testDeleteUser -->
+                  <span class="method-name">testDeleteUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUsers">
+                  </a> <!-- testGetUsers -->
+                  <span class="method-name">testGetUsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginUserInvalid">
+                  </a> <!-- testLoginUserInvalid -->
+                  <span class="method-name">testLoginUserInvalid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginUserValid">
+                  </a> <!-- testLoginUserValid -->
+                  <span class="method-name">testLoginUserValid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateUser">
+                  </a> <!-- testUpdateUser -->
+                  <span class="method-name">testUpdateUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_Test_Suite-class-passed -->
+          <div class="suite-API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.apiTesting.GetTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetDelayedResponse">
+                  </a> <!-- testGetDelayedResponse -->
+                  <span class="method-name">testGetDelayedResponse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetListOfResources">
+                  </a> <!-- testGetListOfResources -->
+                  <span class="method-name">testGetListOfResources</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetListOfUsers">
+                  </a> <!-- testGetListOfUsers -->
+                  <span class="method-name">testGetListOfUsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetSingleResource">
+                  </a> <!-- testGetSingleResource -->
+                  <span class="method-name">testGetSingleResource</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetSingleUser">
+                  </a> <!-- testGetSingleUser -->
+                  <span class="method-name">testGetSingleUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetSingleUserInvalid">
+                  </a> <!-- testGetSingleUserInvalid -->
+                  <span class="method-name">testGetSingleUserInvalid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_Test_Suite-class-passed -->
+          <div class="suite-API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.apiTesting.test.ResourceTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateResource(com.apiTesting.model.Resource@62d9b5b4)">
+                  </a> <!-- testCreateResource(com.apiTesting.model.Resource@62d9b5b4) -->
+                  <span class="method-name">testCreateResource</span>
+                  <span class="parameters">(com.apiTesting.model.Resource@62d9b5b4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateResource(com.apiTesting.model.Resource@1aa9339)">
+                  </a> <!-- testCreateResource(com.apiTesting.model.Resource@1aa9339) -->
+                  <span class="method-name">testCreateResource</span>
+                  <span class="parameters">(com.apiTesting.model.Resource@1aa9339)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateResource(com.apiTesting.model.Resource@12b3a7a1)">
+                  </a> <!-- testCreateResource(com.apiTesting.model.Resource@12b3a7a1) -->
+                  <span class="method-name">testCreateResource</span>
+                  <span class="parameters">(com.apiTesting.model.Resource@12b3a7a1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteResource">
+                  </a> <!-- testDeleteResource -->
+                  <span class="method-name">testDeleteResource</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetResources">
+                  </a> <!-- testGetResources -->
+                  <span class="method-name">testGetResources</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetSingleResource">
+                  </a> <!-- testGetSingleResource -->
+                  <span class="method-name">testGetSingleResource</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateResource">
+                  </a> <!-- testUpdateResource -->
+                  <span class="method-name">testUpdateResource</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_Test_Suite-class-passed -->
+        </div> <!-- panel API_Test_Suite -->
+        <div panel-name="test-xml-API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Shahnawaz\Downloads\SQE-A4\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;API Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;API Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.apiTesting.GetTests&quot;/&gt;
+      &lt;class name=&quot;com.apiTesting.test.ResourceTests&quot;/&gt;
+      &lt;class name=&quot;com.apiTesting.test.UserTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- API Tests --&gt;
+&lt;/suite&gt; &lt;!-- API Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">API Tests (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_API_Test_Suite');
+function tableData_API_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testGetDelayedResponse')
+data.setCell(0, 2, 'com.apiTesting.GetTests')
+data.setCell(0, 3, 6188);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testGetListOfResources')
+data.setCell(1, 2, 'com.apiTesting.GetTests')
+data.setCell(1, 3, 1091);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testCreateResource')
+data.setCell(2, 2, 'com.apiTesting.test.ResourceTests')
+data.setCell(2, 3, 1062);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testGetListOfUsers')
+data.setCell(3, 2, 'com.apiTesting.GetTests')
+data.setCell(3, 3, 944);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testCreateResource')
+data.setCell(4, 2, 'com.apiTesting.test.ResourceTests')
+data.setCell(4, 3, 896);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testUpdateUser')
+data.setCell(5, 2, 'com.apiTesting.test.UserTests')
+data.setCell(5, 3, 873);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testUpdateResource')
+data.setCell(6, 2, 'com.apiTesting.test.ResourceTests')
+data.setCell(6, 3, 865);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testLoginUserInvalid')
+data.setCell(7, 2, 'com.apiTesting.test.UserTests')
+data.setCell(7, 3, 861);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testGetSingleResource')
+data.setCell(8, 2, 'com.apiTesting.GetTests')
+data.setCell(8, 3, 832);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testCreateUser')
+data.setCell(9, 2, 'com.apiTesting.test.UserTests')
+data.setCell(9, 3, 822);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testLoginUserValid')
+data.setCell(10, 2, 'com.apiTesting.test.UserTests')
+data.setCell(10, 3, 812);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testCreateUser')
+data.setCell(11, 2, 'com.apiTesting.test.UserTests')
+data.setCell(11, 3, 808);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testGetSingleUserInvalid')
+data.setCell(12, 2, 'com.apiTesting.GetTests')
+data.setCell(12, 3, 787);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testCreateUser')
+data.setCell(13, 2, 'com.apiTesting.test.UserTests')
+data.setCell(13, 3, 769);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testGetResources')
+data.setCell(14, 2, 'com.apiTesting.test.ResourceTests')
+data.setCell(14, 3, 758);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testDeleteUser')
+data.setCell(15, 2, 'com.apiTesting.test.UserTests')
+data.setCell(15, 3, 754);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testDeleteResource')
+data.setCell(16, 2, 'com.apiTesting.test.ResourceTests')
+data.setCell(16, 3, 747);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testCreateResource')
+data.setCell(17, 2, 'com.apiTesting.test.ResourceTests')
+data.setCell(17, 3, 738);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testGetSingleUser')
+data.setCell(18, 2, 'com.apiTesting.GetTests')
+data.setCell(18, 3, 438);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testGetSingleResource')
+data.setCell(19, 2, 'com.apiTesting.test.ResourceTests')
+data.setCell(19, 3, 436);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testGetUsers')
+data.setCell(20, 2, 'com.apiTesting.test.UserTests')
+data.setCell(20, 3, 377);
+window.suiteTableData['API_Test_Suite']= { tableData: data, tableDiv: 'times-div-API_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <div id="times-div-API_Test_Suite">
+              </div> <!-- times-div-API_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.apiTesting.GetTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetDelayedResponse</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetListOfResources</span>
+                <span class="method-start">6191 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetListOfUsers</span>
+                <span class="method-start">7283 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetSingleResource</span>
+                <span class="method-start">8230 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetSingleUser</span>
+                <span class="method-start">9064 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetSingleUserInvalid</span>
+                <span class="method-start">9503 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.apiTesting.test.ResourceTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCreateResource(com.apiTesting.model.Resource@12b3a7a1)</span>
+                <span class="method-start">10312 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreateResource(com.apiTesting.model.Resource@62d9b5b4)</span>
+                <span class="method-start">11378 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreateResource(com.apiTesting.model.Resource@1aa9339)</span>
+                <span class="method-start">12119 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteResource</span>
+                <span class="method-start">13019 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetResources</span>
+                <span class="method-start">13769 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetSingleResource</span>
+                <span class="method-start">14529 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateResource</span>
+                <span class="method-start">14968 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.apiTesting.test.UserTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCreateUser(com.apiTesting.model.User@6cd7bff1)</span>
+                <span class="method-start">15835 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreateUser(com.apiTesting.model.User@289a5bb)</span>
+                <span class="method-start">16645 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreateUser(com.apiTesting.model.User@55aec34b)</span>
+                <span class="method-start">17469 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteUser</span>
+                <span class="method-start">18240 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetUsers</span>
+                <span class="method-start">18996 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginUserInvalid</span>
+                <span class="method-start">19375 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginUserValid</span>
+                <span class="method-start">20239 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateUser</span>
+                <span class="method-start">21052 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
